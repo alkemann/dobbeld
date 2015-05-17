@@ -8,7 +8,7 @@ class Debug
 {
 
     public static $defaults = array(
-        'echo' => true,
+        'echo' => false,
         'mode' => 'Html',
         'depth' => 10,
         'avoid' => array(),
