@@ -1,0 +1,19 @@
+{
+
+  "name": "alkemann/dobbeld",
+  "description": "Development support through convenient, configurable and pretty debug outputs.",
+  "homepage": "https://github.com/alkemann",
+  "authors": [
+    {
+      "name": "Alexander Morland",
+      "homepage": "https://github.com/alkemann"
+    }
+  ],
+  "license": "MIT",
+  "autoload": {
+      "psr-4": {
+          "dobbeld\\": "src/"
+      },
+      "files": ["src/config/bootstrap.php"]
+  }
+}
